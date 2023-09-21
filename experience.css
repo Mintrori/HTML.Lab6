@@ -1,0 +1,65 @@
+/*Top of the page*/
+body {
+    display: flex;
+    justify-content: center;
+    background-color: dimgrey;
+}
+#main {
+    width: 1150px;
+    height: auto;
+}
+#pages {
+    width: 95%;
+    height: 80px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(223, 175, 120);
+    font-size: 60px;
+    font-family:Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    display: flex;
+}
+#pages a {text-decoration: none;}
+#pages a div {
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-color: rgb(231, 225, 219);
+    font-size: 30px;
+    font-family:Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+#pages a div:hover {
+    background-color: rgb(196, 176, 155);
+    color: rgb(53, 53, 53);
+}
+#pages a #currentPage {
+    background-color: rgb(201, 129, 53);
+    color: black;
+}
+#pages a #currentPage:hover {
+    background-color: rgb(173, 99, 19);
+    color: rgb(53, 53, 53);
+}
+/*Container*/
+#centerizer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+#block {
+    width: 1000px;
+    height: auto;
+    background-color: rgb(64, 69, 90);
+    display: flex;
+    justify-content: center;
+}
+/*Content*/
+#list {
+    padding: 5%;
+    background-color: rgb(255, 241, 220);
+    font-size: xx-large;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
